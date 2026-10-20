@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function NotFound() { return <main className="not-found"><span className="not-found-code">404</span><div className="eyebrow"><span className="eyebrow-line"/>OFF THE MAP</div><h1>This page took<br/><em>a wrong turn.</em></h1><p>Looks like there’s nothing here. Let’s get you back to the good stuff.</p><Link className="button button-dark" to="/">Back to overview <span>↗</span></Link></main>; }
